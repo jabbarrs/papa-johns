@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Papa-Johns</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        <link rel="stylesheet" href="src/output.css" />
-        <link rel="stylesheet" href="src/style.css" />  
+        <link rel="stylesheet" href="../src/output.css" />
+        <link rel="stylesheet" href="../src/style.css" />
     </head>
     <body class="!bg-white">
         
@@ -17,7 +17,7 @@
             <div id="header-top" class="lg:relative">
                 <div class="max-w-[1350px] m-auto">
                     <nav class="m-auto flex justify-between items-center p-3">
-                        <a href="#" class="lg:absolute top-[50%] transform lg:translate-y-[-7px] xl:translate-x-[-40px] xl:translate-y-[-19px]"><img class="w-[120px] lg:w-[120px] xl:w-[250px]" src="img/papa_logo.png" alt="papa_logo" /></a>
+                        <a href="#" class="lg:absolute top-[50%] transform lg:translate-y-[-7px] xl:translate-x-[-40px] xl:translate-y-[-19px]"><img class="w-[120px] lg:w-[120px] xl:w-[250px]" src="../img/papa_logo.png" alt="papa_logo" /></a>
                         <div id="desktop_header" class="hidden lg:flex items-center justify-between w-[100%]">
                             <div></div>
                             <div class="flex items-center justify-between gap-5 font-bold text-[22px]">
@@ -26,7 +26,7 @@
                             </div>
                             <div class="flex items-center gap-5 font-bold text-[20px]">
                                 <div class="flex items-center">
-                                    <img class="w-[25px]" src="img/flag_az.png" alt="flag_az" />
+                                    <img class="w-[25px]" src="../img/flag_az.png" alt="flag_az" />
                                     <span class="block">Azərbaycanca</span>
                                 </div>
                                 <div><h4>Giriş / Qeydiyyat</h4></div>
@@ -40,7 +40,7 @@
                         </div>
                         <div class="flex justify-between w-[50%] items-center lg:hidden">
                             <div class="flex flex-col items-center">
-                                <img class="w-[25px]" src="img/flag_az.png" alt="flag_az" />
+                                <img class="w-[25px]" src="../img/flag_az.png" alt="flag_az" />
                                 <span class="text-[13px] font-bold">Az</span>
                             </div>
                             <div>
@@ -65,8 +65,8 @@
                     <div class="m-auto flex justify-center items-center lg:justify-between gap-3 p-2 text-white text-[14px] lg:text-[17px] font-bold">
                         <div></div>
                         <menu class="flex overflow-x-auto xl:gap-3 gap-2 p-2 xl:ml-[150px]">
-                            <li><a href="index.htm">KAMPANİYALAR</a></li>
-                            <li><a href="pages/papadias.htm">PAPADIAS</a></li>
+                            <li><a href="../index.htm">KAMPANİYALAR</a></li>
+                            <li><a href="papadias.htm">PAPADIAS</a></li>
                             <li><a href="#">PİZZA</a></li>
                             <li><a href="#">QƏLYANALTILAR</a></li>
                             <li><a href="#">SALAT</a></li>
@@ -87,65 +87,39 @@
 
         </header>
 
-        <main class="bg-[#ffff]">
-            
-            <div>
+        <main id="main" class="bg-[#fff]"> 
 
-                <div class="max-w-[1350px] m-auto bg-[#f1f1f1] mt-5">
-                    <div class="m-auto flex justify-around items-center p-[18px]">
-                        <p class="hidden lg:block font-bold text-[24px]">Promo kodunuz var?
-                            <span class="text-green-700">Endirimdən istifadə edin!</span>
-                        </p>
-                        <div class="flex gap-2 justify-center">
-                            <input class="border border-green-700 rounded-md p-2 w-full xs:w-[200px]" type="search" placeholder="Promo kodu daxil edin" />
-                            <button class="w-[60px] bg-green-700 p-2 text-white font-bold rounded-md">OK</button>
-                        </div>
+            <div class="max-w-[1350px] m-auto bg-[#f1f1f1] mt-5">
+                <div class="m-auto flex justify-around items-center p-[18px]">
+                    <p class="hidden lg:block font-bold text-[24px]">Promo kodunuz var?
+                        <span class="text-green-700">Endirimdən istifadə edin!</span>
+                    </p>
+                    <div class="flex gap-2 justify-center">
+                        <input class="border border-green-700 rounded-md p-2 w-full xs:w-[200px]" type="search" placeholder="Promo kodu daxil edin" />
+                        <button class="w-[60px] bg-green-700 p-2 text-white font-bold rounded-md">OK</button>
                     </div>
                 </div>
+            </div>
 
-                <div class="max-w-[1350px] m-auto">
-                    <div class="w-full h-full my-5 swiper mySwiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">
-                            <img class="w-full h-auto object-cover" src="img/slider1.png" alt="campaign1" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img class="w-full h-auto object-cover" src="img/slider2.png" alt="campaign2" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img class="w-full h-auto object-cover" src="img/slider3.png" alt="campaign3" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img class="w-full h-auto object-cover" src="img/slider4.png" alt="campaign4" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img class="w-full h-auto object-cover" src="img/slider5.png" alt="campaign5" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img class="w-full h-auto object-cover" src="img/slider6.png" alt="campaign6" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img class="w-full h-auto object-cover" src="img/slider7.jpg" alt="campaign7" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img class="w-full h-auto object-cover" src="img/slider8.png" alt="campaign8" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img class="w-full h-auto object-cover" src="img/slider9.png" alt="campaign9" />
-                          </div>
-                          <div class="swiper-slide">
-                            <img class="w-full h-auto object-cover" src="img/slider10.jpg" alt="campaign10" />
-                          </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
+            <div class="max-w-[1350px] m-auto bg-[#f1f1f1] mt-5">
+                <div class="m-auto flex justify-start items-center p-[18px]">
+                    <ul class="font-bold text-[15px] md:text-[20px] flex gap-3 md:gap-5">
+                        <li><a href="#">Hamısı</a></li>
+                        <li><a href="#">Toyuqlu</a></li>
+                        <li><a href="#">Ət ilə</a></li>
+                        <li><a href="#">Vegeterian</a></li>
+                        <li><a href="#">Acılı</a></li>
+                    </ul>
                 </div>
+            </div>
+
+            <div id="content" class="flex justify-around items-center flex-wrap max-w-[1350px] m-auto mt-[30px] gap-x-5 gap-y-4">
 
             </div>
 
         </main>
 
-        <footer class="fixed bottom-0 left-0 lg:static w-full bg-red-700 py-5 text-white font-bold">
+        <footer class="fixed bottom-0 left-0 xl:static w-full bg-red-700 py-5 text-white font-bold">
 
             <div class="flex flex-col md:flex-row justify-between items-center text-[12px] md:text-[15px] px-3">
                 <p class="lg:pl-3">© PJA 2024</p>
@@ -163,6 +137,7 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script src ="js/index.js"></script>
+        <script src="../js/index.js"></script>
+        <script src="../js/pp.js"></script>
     </body>
 </html>
