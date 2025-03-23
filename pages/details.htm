@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Papa-Johns</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="../src/output.css" />
+        <link rel="stylesheet" href="../src/style.css" />   
+    </head>
+    <body class="!bg-white">
+        
+        <header>
+
+            <div id="header-top" class="lg:relative">
+                <div class="max-w-[1350px] m-auto">
+                    <nav class="m-auto flex justify-between items-center p-3">
+                        <a href="/index.htm" class="lg:absolute top-[50%] transform lg:translate-y-[-7px] xl:translate-x-[-40px] xl:translate-y-[-19px]"><img class="w-[120px] lg:w-[120px] xl:w-[250px]" src="../img/papa_logo.png" alt="papa_logo" /></a>
+                        <div id="desktop_header" class="hidden lg:flex items-center justify-between w-[100%]">
+                            <div></div>
+                            <div class="flex items-center justify-between gap-5 font-bold text-[22px]">
+                                <h4>Restoranlar</h4>
+                                <h4>PapaBonus</h4>
+                            </div>
+                            <div class="flex items-center gap-5 font-bold text-[20px]">
+                                <div class="flex items-center">
+                                    <img class="w-[25px]" src="../img/flag_az.png" alt="flag_az" />
+                                    <span class="block">Azərbaycanca</span>
+                                </div>
+                                <div><h4>Giriş / Qeydiyyat</h4></div>
+                                <div>
+                                    <a href="#" class="flex flex-col items-center">
+                                        <i class="fa-solid fa-basket-shopping text-[25px]"></i>
+                                        <span class="text-[13px] font-bold">0 ₼</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-between w-[50%] items-center lg:hidden">
+                            <div class="flex flex-col items-center">
+                                <img class="w-[25px]" src="../img/flag_az.png" alt="flag_az" />
+                                <span class="text-[13px] font-bold">Az</span>
+                            </div>
+                            <div>
+                                <a href="#" class="flex flex-col items-center">
+                                    <i class="fa-solid fa-user text-[25px]"></i>
+                                    <span class="text-[13px] font-bold">Giriş</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="flex flex-col items-center">
+                                    <i class="fa-solid fa-basket-shopping text-[25px]"></i>
+                                    <span class="text-[13px] font-bold">0 ₼</span>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div id="header-btn" class="bg-red-700">
+                <div class="max-w-[1350px] m-auto">
+                    <div class="m-auto flex justify-center items-center lg:justify-between gap-3 p-2 text-white text-[14px] lg:text-[17px] font-bold">
+                        <div></div>
+                        <menu id="menu" class="flex overflow-x-auto xl:gap-3 gap-2 p-2 xl:ml-[150px] uppercase">
+
+                        </menu>
+                        <div class="hidden lg:block">
+                            <a class="flex items-center gap-2 text-[22px]" href="#">
+                                0 bal
+                                <span class="px-3 text-[20px] rounded-[50%] font-extrabold bg-green-700">?</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div id="details" class="max-w-[1350px] m-auto bg-white min-h-[80vh]">
+                
+            </div>
+    
+        </main>
+
+        <footer class="fixed bottom-0 left-0 xl:static w-full bg-red-700 py-5 text-white font-bold">
+
+            <div class="flex justify-between items-center text-[12px] md:text-[15px] custom:text-[8px] px-3">
+                <p class="lg:pl-3">&copy; PJA 2024</p>
+                <div>
+                    <ul class="flex items-center sm:gap-2 lg:gap-3 px-3">
+                        <li><a href="#">Haqqımızda</a></li>
+                        <li><a href="#">Sual-Cavab</a></li>
+                        <li><a href="#">Karyera</a></li>
+                        <li><a href="#">Xəmir</a></li>
+                        <li><a href="#">Papa Talk - Şərtlər və Qaydalar</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="../js/index.js"></script>
+        <script src="../js/category.js"></script>
+        <script src="../js/details.js"></script>
+    </body>
+</html>
